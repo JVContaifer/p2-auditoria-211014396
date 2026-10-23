@@ -118,12 +118,12 @@ with open(os.path.join(RAIZ, "docs", "NORMAS_VERSOES.md"), "w", encoding="utf-8"
 # ---------------------------------------------------------------- fontes
 fontes = [
     ["F1", "Demonstrações Financeiras Bradespar 2025 (Relatório da Administração, DFs, notas, relatório do auditor, 46 p. impressas)", "Bradespar S.A.",
-     "Página de origem: portal de RI da companhia (https://www.bradespar.com). Arquivo baixado manualmente pelo aluno; o link direto do arquivo **não** foi registrado.", "23/10/2026",
+     "https://publish-p128342-e1259725.adobeaemcloud.com/content/dam/banco-bradesco/bradespar/staticfiles/assets/pdf/relatorios-cvm/relatorio-financeiro/Demonstrações%20Financeiras%20Bradespar%202025.pdf (publicado pelo RI da Bradespar)", "23/10/2026",
      "DF p.2–3 (estrutura dos investimentos); p.14–19 (DFs); p.20–41 (notas 1–18); p.41 (órgãos); p.42–46 (relatório do auditor)", "2025 (comparativo 2024)", "fontes/ (não versionada se houver restrição de uso)"],
     ["F2", "DFP — Demonstrações Financeiras Padronizadas 31/12/2025 (50 p.)", "Bradespar S.A. / CVM (código CVM 1872-4)",
-     "Consulta pública CVM: https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx · origem do arquivo: RI da companhia", "23/10/2026",
+     "https://publish-p128342-e1259725.adobeaemcloud.com/content/dam/banco-bradesco/bradespar/staticfiles/assets/pdf/relatorios-cvm/2025-itr/DFP%202025.pdf (RI da Bradespar). Consulta CVM: https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx", "23/10/2026",
      "DFP p.21 (serviços do auditor); p.42–44 (acionistas e cadeia de controle); p.45–47 (relatório); p.48 (Conselho Fiscal); p.49–50 (declarações dos diretores)", "2025", "idem"],
-    ["F3", "FCA — Formulário Cadastral 2026, versão 1 (6 p.)", "Bradespar S.A. / CVM", "Origem: RI da companhia; consulta CVM como acima", "23/10/2026",
+    ["F3", "FCA — Formulário Cadastral 2026, versão 1 (6 p.)", "Bradespar S.A. / CVM", "https://publish-p128342-e1259725.adobeaemcloud.com/content/dam/banco-bradesco/bradespar/staticfiles/assets/pdf/relatorios-cvm/formulario-cadastral/FCA%20Versão%20Anual%20Bradespar%202026_PT.pdf (RI da Bradespar)", "23/10/2026",
      "FCA p.1 (dados gerais; sem nome anterior; ações BRAP3/BRAP4); p.4 (auditores); p.5 (escriturador)", "2026 (cadastral)", "idem"],
     ["F4", "NBC TA de Auditoria Independente (página do CFC)", "Conselho Federal de Contabilidade", "https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-ta-de-auditoria-independente/", "23/10/2026",
      "Lista de normas e revisões (resumo)", "n/a", "docs/NORMAS_VERSOES.md"],
@@ -144,7 +144,7 @@ with open(os.path.join(RAIZ, "docs", "fontes.md"), "w", encoding="utf-8") as f:
 - **Mudanças de nome/ticker:** o FCA (p.1) informa *nome empresarial anterior: vazio*; as ações listadas são **BRAP3** (ON) e **BRAP4** (PN) desde 2000/2001 (FCA p.3). Não foi identificada mudança de nome ou ticker; a empresa atribuída (Bradespar S.A.) foi mantida.
 - **Auditores:** PricewaterhouseCoopers (09/05/2019 a 03/05/2024) e Baker Tilly 4Partners (desde 06/05/2024) — FCA p.4.
 - **Contatos:** nenhuma empresa, auditor, cliente ou fornecedor foi contatado. O acesso ao site de RI foi bloqueado por robôs; os PDFs foram baixados pelo aluno.
-- **Limite:** não foi possível registrar o link direto de cada PDF; recomenda-se ao aluno substituir a coluna *url_ou_origem* pelos links exatos, se desejar.
+- **Links:** os três PDFs foram indicados pelo aluno a partir do site de RI da Bradespar (hospedagem da companhia); os arquivos baixados estão em `fontes/`.
 """)
 
 # ---------------------------------------------------------------- programas de auditoria por ciclo
