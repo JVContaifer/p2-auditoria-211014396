@@ -1,0 +1,19 @@
+variavel,tipo,unidade,descricao,fonte_ou_hipotese,regra_de_validacao
+id_registro,texto,—,Identificador único da linha (prefixo SINT- = dado sintético).,Gerado,Chave primária
+id_lote,texto,—,Identificador do sublote de custódia de ações da Vale (fictício). Repetido apenas nas duplicidades inseridas.,Gerado,"Único, exceto erro E3"
+custodiante,texto,—,Código fictício do agente de custódia (C01–C06).,Hipótese A3,Lista fechada
+data_origem,data,AAAA-MM-DD,Data fictícia de formação do sublote (01/08/2017–31/12/2024).,Hipótese A3,<= 2024-12-31
+conta_contabil,texto,—,Conta contábil do razão auxiliar. 1.2.1.01 = Investimentos em coligada (Vale).,Hipótese A4,Deve ser 1.2.1.01
+quantidade_acoes,inteiro,ações,Quantidade registrada de ações ordinárias VALE3 do sublote. Soma (limpa) = 163.355.000.,DFP/CVM (total); alocação sintética,> 0
+quantidade_custodia_externa,inteiro,ações,Quantidade segundo extrato SIMULADO do custodiante (para PT 505).,Sintético,= quantidade_acoes
+saldo_inicial_2025_brl,decimal,R$,"Saldo do sublote em 31/12/2024. Soma (limpa) = R$ 8.153.681.000,00.",Balanço 2024 (total); alocação pro rata,pro rata da quantidade
+equivalencia_2025_brl,decimal,R$,"Equivalência patrimonial 2025 do sublote. Soma (limpa) = R$ 571.264.000,00.",DRE 2025 / Nota 8,pro rata da quantidade
+reflexo_oci_2025_brl,decimal,R$,"Reflexos de empresas com influência significativa (OCI) 2025. Soma (limpa) = −R$ 135.589.000,00.",DMPL / DRA 2025,pro rata da quantidade
+jcp_bruto_2025_brl,decimal,R$,"JCP declarados pela Vale (bruto de IRRF) em 2025: recebidos + a receber. Soma (limpa) = −R$ 566.011.000,00.",Nota 13,pro rata da quantidade
+dividendos_2025_brl,decimal,R$,"Dividendos declarados pela Vale em 2025: recebidos + a receber. Soma (limpa) = −R$ 678.589.000,00.",Nota 13,pro rata da quantidade
+saldo_final_2025_brl,decimal,R$,"Saldo do sublote em 31/12/2025 = soma das 5 parcelas anteriores. Soma (limpa) = R$ 7.344.756.000,00.",Balanço 2025 / Nota 8,= soma das parcelas
+data_lancamento,data,AAAA-MM-DD,Data (sintética) do lançamento contábil da equivalência 2025 do sublote.,Hipótese A5,Entre 2025-12-31 e 2026-03-24
+hora_lancamento,hora,HH:MM:SS,Hora (sintética) do lançamento.,Hipótese A5,—
+usuario_lancamento,texto,—,SISTEMA (rotina automática) ou U01–U08 (usuários autorizados fictícios). U98/U99 = não autorizados (só nos erros).,Hipótese A5,Lista de autorizados
+tipo_lancamento,texto,—,AUTOMATICO ou MANUAL.,Hipótese A5,—
+origem_dado,texto,—,Sempre 'SINTETICO' — rótulo explícito de dado fictício.,Gerado,Constante

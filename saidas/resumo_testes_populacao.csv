@@ -1,0 +1,14 @@
+teste,registros_alertados,soma_saldo_alertado_brl,efeito_estimado_brl
+T1_soma,300,4179957.17,-9685.47
+T2_qtd_vs_custodia,410,20587932.87,13918504.78
+T3_duplicidade_lote,300,4759984.35,4759984.35
+T4_qtd_invalida,60,809224.81,-0.05
+T5_prorata_recalculo,640,16753739.18,8141101.14
+T6_corte_pos_emissao,150,2211767.29,-0.1
+T7a_manual_fim_semana,201,11009638.52,8365652.09
+T7b_manual_madrugada,200,10992957.64,8365652.09
+T7c_usuario_nao_autorizado,109,6315105.5,4704748.88
+T7d_valor_redondo,200,10992957.64,8365652.09
+T8_saldo_zero_com_qtd,40,0.0,-345037.88
+T9_conta_indevida,80,832874.79,-0.04
+T0_total_controle_acoes,0,0.0,661749.68

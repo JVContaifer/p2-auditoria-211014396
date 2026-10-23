@@ -1,0 +1,20 @@
+parametro_ou_resultado,valor
+Valor contábil da população (R$),7372273191.320001
+Materialidade global (R$),80000000.0
+Materialidade para execução = distorção tolerável (R$),56000000.0
+Distorção esperada assumida (R$),5000000.0
+"Fator de confiança (zero erros), 95%",2.9957
+Fator de expansão,1.6
+Tamanho calculado da amostra,461
+Intervalo de amostragem (R$),15991915.82
+Itens do estrato topo (>= intervalo),0
+Itens selecionados no estrato sistemático,461
+Itens na amostra (total),461
+Início aleatório (R$),9799321.59
+Itens com distorção (superavaliação),1
+Itens com distorção (subavaliação),0
+Distorção bruta encontrada na amostra (R$),1198595.16
+Distorção mais provável projetada — superavaliação (R$),14392724.23
+"Limite superior de erro (Stringer, 95%) — superavaliação (R$)",73067883.65
+UEL / distorção tolerável,1.305
+Conclusão da amostra,UEL > TM: amostra NÃO apoia aceitação sem ajustes/ampliação

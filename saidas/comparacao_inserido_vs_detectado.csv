@@ -1,0 +1,12 @@
+tipo_erro,inseridos,natureza,efeito_inserido_brl,detectados_populacao,selecionados_amostra,detectados_amostra,recall_populacao_%
+E1a,400,valor,120487.18,400,0,0,100.0
+E1b,300,valor,-9685.25,300,0,0,100.0
+E2,350,valor,13918505.08,350,1,1,100.0
+E3,300,valor,4759984.35,300,0,0,100.0
+E4,150,corte,172027.94,150,0,0,100.0
+E5,200,valor,8365652.19,200,0,0,100.0
+E6,60,integridade,0.0,60,0,0,100.0
+E7,40,valor,-345037.87,40,0,0,100.0
+E8,80,classificacao,-832874.79,80,0,0,100.0
+E9,150,valor,661749.88,0,0,0,0.0
+TOTAL,2030,,26810808.71,1880,1,1,92.6

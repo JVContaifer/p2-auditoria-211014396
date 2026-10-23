@@ -1,0 +1,12 @@
+item,valor_brl
+Saldo contábil — Balanço 31/12/2025 (Investimentos),7344756000.0
+(+) Duplicidades (T3),4759984.35
+(+/−) Quantidade registrada diverge da custódia (T2),13918504.78
+"(+/−) Valores sem aderência ao pro rata/soma (T1, T5, T8)",8131091.29
+"(+) Excesso de ações no total de controle (T0): 14,718 ações × R$ 44.9619 — NÃO localizado por linha",661749.68
+Total: saldo esperado do razão auxiliar (todas as contas),7372227330.1
+Soma observada do razão auxiliar (todas as contas),7372227655.56
+Diferença residual não explicada (arredondamento/precisão),325.46
+(−) Registros em conta indevida (T9),-832874.79
+Total: soma do razão auxiliar na conta 1.2.1.01,7371394780.77
+Diferença total da conta 1.2.1.01 vs. Balanço,26638780.77

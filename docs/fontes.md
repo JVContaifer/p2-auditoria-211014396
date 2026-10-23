@@ -1,0 +1,18 @@
+# Registro de fontes (URL, data de acesso, documento, páginas, exercício)
+
+| id | documento | emissor | url_ou_origem | data_acesso | paginas_utilizadas | exercicio | arquivo_local |
+|---|-------------------|------------|-------------------|------|-------------------|----------|-------------|
+| F1 | Demonstrações Financeiras Bradespar 2025 (Relatório da Administração, DFs, notas, relatório do auditor, 46 p. impressas) | Bradespar S.A. | Página de origem: portal de RI da companhia (https://www.bradespar.com). Arquivo baixado manualmente pelo aluno; o link direto do arquivo **não** foi registrado. | 23/10/2026 | DF p.2–3 (estrutura dos investimentos); p.14–19 (DFs); p.20–41 (notas 1–18); p.41 (órgãos); p.42–46 (relatório do auditor) | 2025 (comparativo 2024) | fontes/ (não versionada se houver restrição de uso) |
+| F2 | DFP — Demonstrações Financeiras Padronizadas 31/12/2025 (50 p.) | Bradespar S.A. / CVM (código CVM 1872-4) | Consulta pública CVM: https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx · origem do arquivo: RI da companhia | 23/10/2026 | DFP p.21 (serviços do auditor); p.42–44 (acionistas e cadeia de controle); p.45–47 (relatório); p.48 (Conselho Fiscal); p.49–50 (declarações dos diretores) | 2025 | idem |
+| F3 | FCA — Formulário Cadastral 2026, versão 1 (6 p.) | Bradespar S.A. / CVM | Origem: RI da companhia; consulta CVM como acima | 23/10/2026 | FCA p.1 (dados gerais; sem nome anterior; ações BRAP3/BRAP4); p.4 (auditores); p.5 (escriturador) | 2026 (cadastral) | idem |
+| F4 | NBC TA de Auditoria Independente (página do CFC) | Conselho Federal de Contabilidade | https://cfc.org.br/tecnica/normas-brasileiras-de-contabilidade/nbc-ta-de-auditoria-independente/ | 23/10/2026 | Lista de normas e revisões (resumo) | n/a | docs/NORMAS_VERSOES.md |
+| F5 | Bradespar — resultados do 2T26 (notícia) | Eu Quero Investir (fonte **secundária**) | https://euqueroinvestir.com/acoes/bradespar-lucro-2t26-resultados | 23/10/2026 | Texto integral (resumo obtido por ferramenta de leitura): lucro 2T26/1S26, caixa, recompra e remuneração da Vale | 2026 (T2) | PT-560, PT-570 (informativo) |
+| F6 | Base de lotes SINTÉTICA e gabarito de erros | Gerada pelo aluno (codigo/01_gerar_base.py) | Repositório GitHub | 23/10/2026 | Todas as linhas | Sintético (referência 2025) | base_simulada/ |
+| F7 | Planilha de cálculos (materialidade, conciliações, analíticos) | Gerada pelo aluno (codigo/05_planilhas.py) | Repositório GitHub | 23/10/2026 | Todas as abas | 2025 | planilhas/ |
+
+## Observações
+
+- **Mudanças de nome/ticker:** o FCA (p.1) informa *nome empresarial anterior: vazio*; as ações listadas são **BRAP3** (ON) e **BRAP4** (PN) desde 2000/2001 (FCA p.3). Não foi identificada mudança de nome ou ticker; a empresa atribuída (Bradespar S.A.) foi mantida.
+- **Auditores:** PricewaterhouseCoopers (09/05/2019 a 03/05/2024) e Baker Tilly 4Partners (desde 06/05/2024) — FCA p.4.
+- **Contatos:** nenhuma empresa, auditor, cliente ou fornecedor foi contatado. O acesso ao site de RI foi bloqueado por robôs; os PDFs foram baixados pelo aluno.
+- **Limite:** não foi possível registrar o link direto de cada PDF; recomenda-se ao aluno substituir a coluna *url_ou_origem* pelos links exatos, se desejar.
